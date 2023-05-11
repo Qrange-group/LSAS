@@ -10,7 +10,7 @@ This repository is the implementation of "LSAS: Lightweight Sub-attention Strate
 In computer vision, the performance of deep neural networks (DNNs) is highly related to the feature extraction ability, i.e., the ability to recognize and focus on key pixel regions in an image. However, in this paper, we quantitatively and statistically illustrate that DNNs have a serious attention bias problem on many samples from some popular datasets: (1) Position bias: DNNs fully focus on label-independent regions; (2) Range bias: The focused regions from DNN are not completely contained in the ideal region. Moreover, we find that the existing self-attention modules can alleviate these biases to a certain extent, but the biases are still non-negligible. To further mitigate them, we propose a lightweight sub-attention strategy (LSAS), which utilizes high-order sub-attention modules to improve the original self-attention modules. The effectiveness of LSAS is demonstrated by extensive experiments on widely-used benchmark datasets and popular attention networks. 
 
 <p align="center">
-  <img src="https://github.com/Qrange-group/LSAS/blob/main/images/arch.png" width="600" height="300">
+  <img src="https://github.com/Qrange-group/LSAS/blob/main/images/arch.png" width="900" height="300">
 </p>
 
 
